@@ -1,6 +1,7 @@
 # vim: fileencoding=utf-8 tw=100 expandtab ts=4 sw=4 :
 # Django Template Filter that parse a tweet in plain text and turn it with working Urls
 # tweet_parser.py
+# version : 1.0.0
 # License : MIT
 # Author : Vincent Loy <vincent.loy1@gmail.com>
 # copyright (c) 2015 Vincent Loy
