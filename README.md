@@ -9,6 +9,12 @@ Once installed, just :
 ```
 
 ## Installation
+Set [Pytter](https://github.com/VincentLoy/pytter) as a dependecie of your project in requirements.txt
+Or into your virtualenv type :
+```console
+$ pip install pytter
+```
+
 Take a look at the [Django Documentation](https://docs.djangoproject.com/en/1.8/howto/custom-template-tags/)
 just create a directory named **templatetags** into your Django app directory and past **tweet_parser.py** into it.
 (don't forget to create an empty init file like in the example below)
