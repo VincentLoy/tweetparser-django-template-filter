@@ -24,7 +24,6 @@ CUSTOM_CLASSES = {
 
 @register.filter(name='tweetparser')
 def tweetparser(value):
-    t = Pytter(value)
-    t.set_html_class(CUSTOM_CLASSES)
+    t = Pytter(value, CUSTOM_CLASSES)
 
     return safestring.mark_safe(t.get_html())
